@@ -1,0 +1,66 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: bisque;
+}
+.game
+{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 340px;
+    width: 450px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.game-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 100px;
+    width: 130px;
+    border: 1px solid #000;
+}
+.border
+{
+    border-radius: 10px;
+    background-color: beige;
+    height: 430px;
+    width: 500px;
+    border: 2px solid #000;
+}
+.btn-reset
+{
+   height: 40px;
+   width: 120px; 
+   border-radius: 10px;
+   text-align: center;
+   margin-left: 190px;
+   margin-top: 10px;
+}
+.disabledBorder
+{
+    display: none;
+}
+.disabled
+{
+    pointer-events: none;
+}
+.winer
+{
+    position: fixed;
+    top: 400px;
+    left: 48%;
+    font-size: 35px;
+}
+strong
+{
+    transform: rotate(40deg);
+    color: aqua;
+}
